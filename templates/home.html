@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename="./style.css")}}">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename="./color-1.css")}}">
+    <link rel="stylesheet" href="https://cdnjs.colorflare.com/ajax/lins/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+        
+    <!-- ==== Main Container Start ==== -->
+    <div class="main-container">
+        <!-- ==== Aside Start ==== -->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>P</span>avan</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
+        <!-- ==== Aside End ==== -->
+        <!-- ==== Main Content Start ====  -->
+        <div class="main-content">
+            <!-- ==== Home Section Start ==== -->
+            <section class="home section">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Gannoju Pavan</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">CS Student</span></h3>
+                            <p>Dynamic computer science student with a passion for software development and a knack for solving complex problems. 
+                                <br> Eager to contribute to groundbreaking projects and learn from industry experts.</p>
+                                 <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="./images/hero2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==== Home Section End ==== -->
+
+            <!-- ==== Contact Content Start ==== -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>something written.....</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>25-38, SSR Nagar,<br>Almasguda, Hyderabad, Telangana <br>500058</p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+916300422984</p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>pavan9542644804@gmail.com</p>
+                        </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type Your Message....</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Contact Content End ==== -->
+
+        </div>
+        <!-- ==== Main Content End ==== -->
+
+    </div>
+    <!-- ==== Main Container End ==== -->
+
+    <!-- ==== JS Files ==== -->
+    <script src="./javascript.js"></script>
+</body>
+</html>
